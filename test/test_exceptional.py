@@ -3,7 +3,7 @@ from test.TestUtils import TestUtils
 
 # Try to import, but if it fails, create dummy functions
 try:
-    from game_score_converter import (
+    from skeleton import (
         convert_string_to_int,
         convert_float_to_int,
         convert_hex_to_int
